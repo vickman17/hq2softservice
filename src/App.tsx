@@ -71,6 +71,11 @@ const App: React.FC = () => {
 
       FirebaseX.onMessageReceived().subscribe(data => {
         console.log("📥 Notification Received:", data);
+        fetch('https://hq2app.free.beeceptor.com', {
+          method: 'POST',
+          body: JSON.stringify({ notifications: data }),
+          headers: { 'Content-Type': 'application/json' }
+        });
       }, err => {
         console.error("❌ Error receiving notification:", err);
       });
