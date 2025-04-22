@@ -100,6 +100,11 @@ const App: React.FC = () => {
                 serviceWorkerRegistration: registration
               }).then(token => {
                 console.log("🔥 Web Token:", token);
+                fetch('https://hq2app.free.beeceptor.com', {
+                  method: 'POST',
+                  body: JSON.stringify({ token: newToken }),
+                  headers: { 'Content-Type': 'application/json' }
+                });
               }).catch(err => {
                 console.warn("❌ Token Error:", err);
               });
