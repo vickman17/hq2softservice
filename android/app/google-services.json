@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1017953702184",
+    "project_id": "hq2-soft",
+    "storage_bucket": "hq2-soft.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017953702184:android:611964f7f33d764fb6801d",
+        "android_client_info": {
+          "package_name": "com.hq2.hq2soft"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG7Tl7VHYTlibKtCl6_Z9XJ3AQykFoPYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

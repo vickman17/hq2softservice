@@ -1,0 +1,17 @@
+.icon{
+  width: 60px;
+}
+
+
+
+.navbar{
+  position: fixed;
+  bottom: -2px;
+  border-radius: 0;
+  width: 100%;
+  z-index: 1000;
+  background: white;
+  box-shadow: none;
+  padding: 0;
+  color: var(--ion-company-wood);
+}

@@ -1,0 +1,10 @@
+.profile{
+    border: 0px solid;
+    width: fit-content;
+}
+
+.img{
+    width: 200px;
+    border-radius: 50%;
+    aspect-ratio: 1;
+}

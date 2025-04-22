@@ -1,0 +1,25 @@
+.add{
+    padding-block: 15px;
+    padding-inline: 25px;
+    color: var(--ion-company-gold);
+    margin-right: 1rem;
+    background: rgb(227, 227, 227);
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.history{
+    color: black;
+}
+
+.but{
+    margin-bottom: 18px;
+    border: 0x solid;
+    padding-block: 10px;
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 2.5rem;
+    font-weight: 800;
+    font-size: 20px;
+}

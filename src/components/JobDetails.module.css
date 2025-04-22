@@ -1,0 +1,89 @@
+.imageGallery {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    padding-right: 20px;
+    overflow-y: hidden;
+    overflow-x: auto;
+  }
+  
+  .imageThumb {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .imageThumb:hover {
+    transform: scale(1.1);
+  }
+  
+  .fullscreenContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    position: relative;
+  }
+  
+  .fullscreenImage {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+  }
+  
+  .closeButton {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background: var(--ion-company-wood);
+    color: white;
+    font-size: 17px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .modalContainer{
+    border: 0px solid;
+    height: 100vh;
+    overflow: scroll;
+    width: 95%;
+    margin: auto;
+    padding-bottom: 10px; 
+  }
+
+  .head{
+    font-weight: 700;
+    color: var(--ion-company-wood);
+  }
+
+  .field{
+    border-color: rgb(200, 200, 200);
+    border-radius: 12px;
+    margin-top: 1rem;
+    padding: 10px;
+  }
+
+  .topHead{
+    border: 0px solid black;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .skill{
+    font-size: 19px;
+    font-weight: 800;
+    color: var(--ion-company-wood);
+    border: 0px solid black;
+    width: 65%;
+    margin: auto;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+  }

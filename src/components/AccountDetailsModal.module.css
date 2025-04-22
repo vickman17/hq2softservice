@@ -1,0 +1,39 @@
+.head{
+    padding-block: 13px;
+    display: flex;
+    align-items: center;
+}
+
+
+.detailsCont{
+    border: 0px solid black;
+    width: 95%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+    width: 50%;
+    border: 0px solid;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--ion-company-wood);
+}
+
+.col2{
+    width: 50%;
+    font-size: 20px;
+    border: 0px solid;
+    text-align: right;
+    font-weight: 500;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: right;
+    color: rgba(33, 33, 33, 0.908);
+    align-items: center;
+}

@@ -1,0 +1,200 @@
+.page{
+    /* --background: url("/assets/toolswood.jpg"); */
+    color: white;
+    font-family: "Quicksand";
+    overflow: hidden;
+}
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: center; 
+    z-index: -1;
+  }
+
+.topCont{
+    background: rgba(0, 0, 0, 0.587);
+    top: 0;
+    height: 100%;
+    padding-top: 20px;
+    color: white;
+}
+
+ .backCont{
+    position: absolute;
+    bottom: 0;
+    background: #f5f5f5;
+    height: 50vh;
+    width: 100%;
+    border-top-left-radius: 2rem;
+ }
+
+ .searchCont{
+    margin: auto;
+    margin-top: 5rem; 
+    border: 0px solid;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 1.5rem;
+    padding-block: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+ }
+
+ .searchContMod{
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom:  1.5rem; 
+    border: 0px solid;
+    width: 95%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 1.5rem;
+    padding-block: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+ }
+
+
+ .search{
+    background: transparent;
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 18px;
+    padding-block: 5px;
+}
+
+.search::placeholder{
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.randomContainer {
+    margin: auto;
+    display: flex;
+    /* justify-content: center; */
+    width: 95%;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    overflow-y: scroll;
+    border: 0px solid;
+    height: fit-content;
+  }
+  
+
+  .box {
+    /* position: absolute;  */
+    text-align: center;
+    padding-block: 3px;
+    padding-inline: 4px;
+    border-radius: 20px;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    /* display: flex;
+    align-items: center; */
+    justify-content: center;
+    white-space: nowrap; /*Prevent text from breaking*/
+  }
+
+.id{
+    padding-left: 10px;
+    border: 0px solid;
+}
+
+.name{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 160px;
+}
+
+.last{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 40%;
+    border: 1px solid;
+}
+
+.itemCont {
+    margin-top: -6rem;
+    border: 0px solid;
+    display: flex;
+    gap: 10px; /* Adds spacing between items */
+    width: 120%; /* Ensures it takes full width */
+    overflow-x: auto; /* Enables horizontal scrolling */
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+    white-space: nowrap; /* Prevents wrapping */
+    padding: 10px;
+    -webkit-overflow-scrolling: touch; /* Improves scrolling on iOS */
+    /* Hide scrollbar */
+    scrollbar-width: none; /* Firefox */
+    margin-left: -1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.itemCont::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+}
+
+.item {
+    flex: 0 0 auto; /* Prevents shrinking and allows smooth scroll */
+    height: 250px;
+    width: 170px;
+    background-position: center;
+    background:#f5f5f5; 
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    color: #484f57;
+    font-weight: 700;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.372);
+}
+
+.imgCont{
+    height: 180px;
+    width: 95%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.categoryName{
+    width: 75%;
+    margin-left: 4px;
+    word-wrap: break-word; /* Allows long words to break */
+    text-transform: lowercase; /* Convert all text to lowercase */
+    white-space: normal; /* Ensures text wraps */
+    overflow-wrap: break-word; /* Ensures long words don’t overflow */
+    font-size: 15px;
+    border: 0px solid;
+    letter-spacing: 0.8px; 
+    line-height: 0.9;
+    font-weight: 800;
+}
+
+.categoryName::first-letter {
+    text-transform: uppercase; /* Capitalize only the first letter */
+}
+
+
+
+
+.modal{
+    --overflow-y: hidden;
+}
+
+.partialModal{
+    overflow-y: hidden;
+}

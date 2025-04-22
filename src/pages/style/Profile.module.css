@@ -1,0 +1,23 @@
+.item{
+    padding-block: 15px;
+    padding-inline: 5px;
+    border-bottom: 1px solid #ccc;
+    width: 95%;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    /* color: #4f794227; */
+}
+
+.icon{
+    margin-right: 6px;
+    border: 0px solid;
+    padding: 5px;
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

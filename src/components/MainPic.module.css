@@ -1,0 +1,31 @@
+.topContainer{
+    border: 0px solid black;
+    background: linear-gradient(#f5b807, var(--ion-menu-list));
+    width: 100%;
+    height: 300px;
+    padding-top: 2rem;
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    box-shadow: 2px 2px 55px black;
+}
+
+.profile{
+    width: 150px;
+    height: 150px;
+    background: url("blueplace.jpg");
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+    border-radius: 50%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

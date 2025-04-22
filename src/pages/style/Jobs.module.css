@@ -1,0 +1,29 @@
+.Head{
+    --border: 0;
+    box-shadow: none;
+    padding-inline-start: 1rem;
+    font-size: 19px;
+}
+
+.table{
+    border: 1px solid;
+    border-color: var(--ion-job);
+}
+
+.segment{
+    background: rgb(241, 241, 241);
+    border: 0px solid;
+    width: 95%;
+    margin: auto;
+    margin-top: .7rem;
+    border-radius: 2rem;
+}
+
+.segBut{
+    --border-radius: 2rem;
+    padding-block: .19rem;
+    font-size: 17px;
+    color: var(--ion-company-wood);
+    font-weight: 555;
+    display: inline-flexbox;
+}

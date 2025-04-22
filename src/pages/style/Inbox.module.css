@@ -1,0 +1,31 @@
+.chat{
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 10px;
+    width: 95%;
+}
+
+.content{
+    font-family: "Quicksand";
+}
+
+.header{
+    border: none;
+    box-shadow: none;
+}
+
+.head{
+    border: 0px solid ;
+    width: 95%;
+    margin: auto;
+    margin-top: 2rem;
+    font-size: 30px;
+    font-weight: 900;
+} 
+
+.last{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 0px solid black;
+}

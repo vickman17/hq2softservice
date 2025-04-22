@@ -1,0 +1,18 @@
+.menuheader{
+    background: var(--ion-menu-head);
+}
+
+.menuImg{
+    background-image: url("blueplace.jpg");
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+}
+
+.menulist{
+    background: var(--ion-menu-list);
+}
+
+.name{
+    color: var(--ion-name);
+}

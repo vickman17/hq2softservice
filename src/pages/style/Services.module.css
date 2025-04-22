@@ -1,0 +1,97 @@
+/* src/pages/Services.css */
+
+.page{
+    background: var(--ion-background-color);
+}
+
+
+.searchField{
+    margin: auto;
+    border: 1px solid grey;
+    padding: 3px;
+    border-radius: 4px;
+    width: 95%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background: var(--ion-modal);
+}
+
+.input{
+    border: none;
+    outline:  none;
+    background: transparent;
+    margin-left: 6px;
+}
+
+.modalHead{
+  background: var(--ion-modal);
+  border: none;
+  box-shadow: none;
+}
+
+.categoryGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .categoryItem {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-weight: bold;
+    height: 200px;
+    padding: 10px;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+  }
+
+.skeleton{
+  padding: 2px;
+}
+  
+  .categoryName {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2px;
+    width: 90%;
+    font-size: 13px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+  }
+  
+
+  .subcategoryItem{
+    font-size: 20px;
+    --background: transparent;
+  }
+
+  /* Services.module.css */
+.partialModal {
+  height: 85vh; /* Adjust the height as needed */
+  margin-top: auto; /* Positions modal at the bottom */
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem; /* Rounded top corners for better visual appeal */
+  overflow-y: auto; /* Enable scroll for long content */
+  padding: 16px; 
+  background: var(--ion-background-color);
+  padding-block-start: 2rem;
+  margin-bottom: -1rem;
+  bottom: 0;/* Padding for content inside */
+}
+
+.subcategoryList{
+  background: transparent;
+}
+
+.modalContent{
+  --background: var(--ion-modal);
+}

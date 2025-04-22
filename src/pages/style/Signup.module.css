@@ -1,0 +1,40 @@
+.write{
+    color: var(--ion-text-color);
+}
+
+.form{
+    border: 0px solid white;
+    margin-top: 4rem;
+}
+
+@media (max-height:750px){
+    .form{
+        border: 0px solid white;
+        margin-top: 5rem;
+    }
+
+}
+
+@media (max-height:500px){
+    .form{
+        margin-top: 0;
+    }
+}
+
+.inputs{
+    border: none;
+    font-size: 17px;
+    margin-top: 12px;
+    text-align: center;
+    width: 80%;
+    padding: 10px;
+    background: transparent;
+}
+
+input::placeholder{
+    color: #9c9c9c;
+}
+
+.inputs:focus{
+    outline: 1px solid #19fb04;
+}

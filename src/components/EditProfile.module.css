@@ -1,0 +1,56 @@
+.imgBox{
+    border: 0px solid white;
+    width: fit-content;
+    margin: auto;
+}
+
+.file{
+    display: none;
+}
+
+.table{
+    margin-bottom: 2rem;
+}
+
+.add{
+    border: 0px solid black;
+    font-size: 35px;
+    width: fit-content; 
+    margin-left: auto;
+    margin-top: -2.3rem;
+}
+
+.sectionTwo{
+    border: 0px solid black;
+    text-align: left;
+    width: 95%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.head{
+    margin-left: 1rem;
+}
+
+.editInput{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--ion-text-color);
+    font-size: 22px;
+    border-bottom: 1px solid var(--ion-text-color);
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.button{
+    width: 100%;
+    font-size: 20px;
+}
+
+.submit{
+    margin: auto;
+    margin-top: 6rem;
+    width: 95%;
+    border: 0px solid black;
+}

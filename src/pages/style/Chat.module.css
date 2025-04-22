@@ -1,0 +1,251 @@
+.head{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 5px;
+    border: 0px solid;
+    box-shadow: none;
+    font-family: "Quicksand";
+}
+
+.content{
+    position: relative;
+    font-family: "Quicksand";
+}
+
+.chatTag{
+    border: 0px solid black;
+    width: 40%;
+    margin: auto;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 13px;
+    background:rgba(79, 121, 66, 0.37);
+    backdrop-filter: saturate(12px);
+}
+
+.back{
+    border: 0px solid;
+    width: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+  /*  background: linear-gradient( 250deg, var(--ion-company-wood), var(--ion-company-gold));*/
+}
+
+.chatField{
+    height: 85vh;
+    overflow: auto;
+    margin-top: .5rem;
+}
+
+@media (max-height: 740px){
+    .chatField{
+        height: 80vh;
+        overflow: auto;
+        margin-top: .5rem;
+    }
+}
+
+.chatName{
+    border: 0px solid;
+    padding: 10px;
+    border-radius: 18px;
+    max-width: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 19px;
+    color: var(--ion-company-wood);
+    text-overflow: ellipsis;
+    font-weight: bold;
+/*    background: linear-gradient( 250deg, var(--ion-company-wood), var(--ion-company-gold));*/
+}
+
+
+.send{
+    --background: transparent;
+    width: 65px;
+    --border: 0px solid black;
+    --box-shadow: none;
+    color: var(--ion-send);
+    padding: 0;
+    height: fit-content;
+}
+
+.sendButton{
+    width: 10%;
+    border: 0px solid rgb(150, 118, 118);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+.icon{
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+}
+
+
+
+.iconCont{
+    border: 1px solid;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    left: 2px;
+    background: linear-gradient(var(--ion-company-gold), var(--ion-company-wood));
+}
+
+
+
+.inputField{
+    background: transparent;
+    border: 0px solid  black;
+    border: none;
+    width: 100%;
+    height:fit-content;
+    outline: none;
+    font-size: 25px;
+    resize: none; /* Prevent manual resizing */
+    overflow: hidden; /* Hide scrollbar */ /* Adjust font size */
+    line-height: 1; /* Adjust line height */
+    box-sizing: border-box;
+}
+
+.file{
+    width: 10%;
+    text-align: center;
+    font-size: 30px;
+    height: 4px;
+    margin-top: auto;
+    border: 0px solid black;
+}
+
+.bottomContent{
+    margin: auto;
+    border: 0px solid black;
+    width: 100%;
+    bottom: 1px;
+    display: flex;
+    position: absolute;
+    background: white;
+}
+
+.chatBox{
+    border: 0px solid rgb(1, 1, 1);
+    width: 90%;
+    margin-top: 1rem;
+    padding-left: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.textArea{
+    background: rgb(219, 219, 219);
+    border-radius: .5rem;
+    padding-block: 7px;
+    padding-left: 5rem;
+}
+
+
+@media (max-width: 380px) {
+    .chatBox{
+        border: 0px solid rgb(1, 1, 1);
+        width: 85%;
+        margin-top: 1rem;
+        padding-left: 10px;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .sendButton{
+        width: 12%;
+        border: 0px solid rgb(150, 118, 118);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    
+}
+
+
+.modal{
+    color: var(--ion-company-wood);
+}
+
+.modalHead{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    border: 0px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.add{
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.colHead{
+    border: 0px solid;
+    font-weight: 600;
+}
+
+
+.colBody{
+    border: 0px solid;
+    width: 40%;
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-weight: 400;
+}
+
+.skill{
+    border: 0px solid;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.set{
+    margin: auto;
+    margin-top: 2rem;
+    width: 90%;
+}
+
+.field{
+    border-radius: 1rem;
+    border: none;
+    padding-bottom: 2rem;
+    background: #fdb10022;
+}
+
+.closeModal{
+    font-size: 18px;
+    --background: linear-gradient(25deg, var(--ion-company-wood), var(--ion-company-primary));
+}

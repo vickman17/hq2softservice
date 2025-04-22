@@ -1,0 +1,55 @@
+.modalHead{
+    box-shadow: none;
+    font-size: 21px;
+    border: 0px solid;
+    color: var(--ion-company-wood);
+    font-weight: 600;
+}
+
+.modalContent{
+    border: 0px solid black;
+    width: 96%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.formGroup{
+    border: 0px solid black;
+}
+
+.input{
+    background: transparent;
+    font-size: 17px;
+    padding-block: 8px;
+    padding-inline: 4px;
+    border: 1px solid grey;
+    margin-bottom: 12px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+}
+
+textArea{
+    background: transparent;
+    width: 100%;   
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+
+.time{
+    border: 1px solid black;
+    width: 48%;
+    padding-block: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.head{
+    font-size: 16px;
+    padding-top: 10px;
+    margin-bottom: 4px;
+    font-weight: 600; 
+    color: var(--ion-company-wood);
+}

@@ -1,0 +1,19 @@
+.header{
+    background-color: none;
+    color: black;
+    border: none;
+    box-shadow: none;
+}
+
+.head{
+    padding: 15px 10px 5px;
+    display: flex;
+    align-items: center;
+    border: 0px solid ;
+}
+
+.title{
+    padding-left: 1rem;
+    font-size: 19px;
+    font-weight: 500;
+}

@@ -1,0 +1,13 @@
+.header{
+    border: none;
+    box-shadow: none;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    border: 0px solid;
+    width: fit-content;
+    margin-top: 8px;
+    margin-left: 6px;
+}
