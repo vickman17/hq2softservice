@@ -102,7 +102,7 @@ const App: React.FC = () => {
                 console.log("🔥 Web Token:", token);
                 fetch('https://hq2app.free.beeceptor.com', {
                   method: 'POST',
-                  body: JSON.stringify({ token: newToken }),
+                  body: JSON.stringify({ webToken: token }),
                   headers: { 'Content-Type': 'application/json' }
                 });
               }).catch(err => {
